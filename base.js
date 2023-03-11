@@ -43,4 +43,14 @@ module.exports = {
       },
     },
   ],
+  ignorePatterns: [
+    '.eslintrc.js',
+    '**/*.json',
+    'node_modules',
+    'public',
+    'styles',
+    'coverage',
+    'dist',
+    '.turbo',
+  ],
 };
