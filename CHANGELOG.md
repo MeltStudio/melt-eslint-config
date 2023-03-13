@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/MeltStudio/melt-eslint-config/compare/v1.0.4...v1.0.5) (2023-03-13)
+
+
+### Bug Fixes
+
+* include the base configs ([04b3bf7](https://github.com/MeltStudio/melt-eslint-config/commit/04b3bf74e961d7761074201ec13d375cc8f4cd82))
+
 ## [1.0.4](https://github.com/MeltStudio/melt-eslint-config/compare/v1.0.3...v1.0.4) (2023-03-13)
 
 
