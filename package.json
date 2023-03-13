@@ -11,9 +11,6 @@
     "eslintconfig"
   ],
   "files": [
-    "base-js.js",
-    "base-ts.js",
-    "base.js",
     "index.js",
     "nextjs-ts.js",
     "node-js.js",

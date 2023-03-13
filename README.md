@@ -249,3 +249,23 @@ yarn add --dev @meltstudio/eslint-config \
   ...
 }
 ```
+
+## Troubleshooting
+
+### Working folder
+
+When running ESLint you need to make sure that it's running using the workspace
+root as its working folder. If you want to run ESLint using a different working
+folder, you'll need to override the `parserOptions` for
+[@typescript-eslint/parser](https://typescript-eslint.io/architecture/parser/),
+and the settings for
+[eslint-import-resolver-typescript](https://github.com/import-js/eslint-import-resolver-typescript)
+and [eslint-config-next](https://nextjs.org/docs/basic-features/eslint).
+
+### Monorepos and lint-staged
+
+The
+[recommended](https://github.com/okonet/lint-staged#how-to-use-lint-staged-in-a-multi-package-monorepo)
+way to work with `lint-staged` in monorepos is adding separate configuration
+files in each package. This ensures that `lint-staged` will run ESLint using the
+package folder as its working folder.
