@@ -1,6 +1,6 @@
 {
   "name": "@meltstudio/eslint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Melt Studio's ESLint configurations",
   "main": "index.js",
   "repository": "https://github.com/MeltStudio/melt-eslint-config",
