@@ -6,6 +6,6 @@ module.exports = {
     'eslint:recommended',
     'airbnb-base',
     'airbnb-typescript/base',
-    '@meltstudio/eslint-config/base-ts',
+    require.resolve('./base-ts'),
   ],
 };

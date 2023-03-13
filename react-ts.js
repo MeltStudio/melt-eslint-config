@@ -7,7 +7,7 @@ module.exports = {
     'airbnb',
     'airbnb/hooks',
     'airbnb-typescript',
-    '@meltstudio/eslint-config/base-ts',
+    require.resolve('./base-ts'),
   ],
   rules: {
     // react
