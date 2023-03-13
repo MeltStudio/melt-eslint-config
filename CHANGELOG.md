@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/MeltStudio/melt-eslint-config/compare/v1.0.2...v1.0.3) (2023-03-13)
+
+
+### Bug Fixes
+
+* remove extra comma in package.json files ([7128213](https://github.com/MeltStudio/melt-eslint-config/commit/71282134cd4d2d8e70ce54d7e4d37d21ac008dd5))
+
 ## [1.0.2](https://github.com/MeltStudio/melt-eslint-config/compare/v1.0.1...v1.0.2) (2023-03-13)
 
 
