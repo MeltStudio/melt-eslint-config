@@ -3,7 +3,12 @@ module.exports = {
     browser: true,
     node: true,
   },
-  extends: ['airbnb', 'airbnb/hooks', 'airbnb-typescript', './base-ts'],
+  extends: [
+    'airbnb',
+    'airbnb/hooks',
+    'airbnb-typescript',
+    '@meltstudio/eslint-config/base-ts',
+  ],
   rules: {
     // react
     'react/function-component-definition': [

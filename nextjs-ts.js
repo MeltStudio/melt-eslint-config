@@ -1,5 +1,8 @@
 module.exports = {
-  extends: ['plugin:@next/next/recommended', './react-ts'],
+  extends: [
+    'plugin:@next/next/recommended',
+    '@meltstudio/eslint-config/react-ts',
+  ],
   rules: {
     'jsx-a11y/alt-text': [
       'warn',
