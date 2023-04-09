@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/MeltStudio/melt-eslint-config/compare/v1.0.5...v1.1.0) (2023-04-09)
+
+
+### Bug Fixes
+
+* update nextjs-ts to avoid errors when using style tags ([a976795](https://github.com/MeltStudio/melt-eslint-config/commit/a976795eb7ec90f4d6fc5e8fbedeabfcf1cbd7f9))
+
+
+### Features
+
+* disable prefer default export ([2b41e04](https://github.com/MeltStudio/melt-eslint-config/commit/2b41e04b1806dda6de226a114b551b4650a6fe75))
+
 ## [1.0.5](https://github.com/MeltStudio/melt-eslint-config/compare/v1.0.4...v1.0.5) (2023-03-13)
 
 
