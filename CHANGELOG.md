@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/MeltStudio/melt-eslint-config/compare/v1.1.0...v1.1.1) (2023-07-28)
+
+
+### Bug Fixes
+
+* disable import/order to avoid conflicts ([9f88bdb](https://github.com/MeltStudio/melt-eslint-config/commit/9f88bdbc37d4dfb4d5b0f3c90d07f4f10e53fd11))
+
 # [1.1.0](https://github.com/MeltStudio/melt-eslint-config/compare/v1.0.5...v1.1.0) (2023-04-09)
 
 
