@@ -17,6 +17,7 @@ module.exports = {
     ],
 
     'import/prefer-default-export': 'off',
+    'import/order': 'off',
 
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
