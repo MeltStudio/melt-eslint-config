@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/MeltStudio/melt-eslint-config/compare/v1.1.1...v1.2.0) (2023-07-29)
+
+
+### Features
+
+* add tsup override for dev deps ([5dcacfb](https://github.com/MeltStudio/melt-eslint-config/commit/5dcacfbcf61d3987a6eeca7f1bc5dc858a7389ee))
+
 ## [1.1.1](https://github.com/MeltStudio/melt-eslint-config/compare/v1.1.0...v1.1.1) (2023-07-28)
 
 
