@@ -45,6 +45,17 @@ module.exports = {
         ],
       },
     },
+    {
+      files: ['tsup.config.ts'],
+      rules: {
+        'import/no-extraneous-dependencies': [
+          'off',
+          {
+            devDependencies: ['tsup.config.ts'],
+          },
+        ],
+      },
+    },
   ],
   ignorePatterns: [
     '.eslintrc.js',
