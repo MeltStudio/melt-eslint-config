@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/MeltStudio/melt-eslint-config/compare/v1.2.0...v2.0.0) (2023-08-15)
+
+
+### Features
+
+* create jest-overrides outside the base config ([7d3eaa9](https://github.com/MeltStudio/melt-eslint-config/commit/7d3eaa975d50e6fd37c9e297710a74917bc46f18))
+
+
+### BREAKING CHANGES
+
+* Jest-overrides as a separate option to extend from outside base config
+
 # [1.2.0](https://github.com/MeltStudio/melt-eslint-config/compare/v1.1.1...v1.2.0) (2023-07-29)
 
 
