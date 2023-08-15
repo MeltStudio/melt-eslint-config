@@ -27,28 +27,4 @@ module.exports = {
       { controlComponents: ['Field'] },
     ],
   },
-  overrides: [
-    {
-      env: {
-        jest: true,
-      },
-      files: [
-        'jest.setup.[jt]s',
-        '**/__tests__/**/*.[jt]s?(x)',
-        '**/?(*.)+(spec|test).[jt]s?(x)',
-      ],
-      extends: ['plugin:testing-library/react', 'plugin:jest/recommended'],
-      rules: {
-        'import/no-extraneous-dependencies': [
-          'off',
-          {
-            devDependencies: [
-              'jest.setup.[jt]s',
-              '**/?(*.)+(spec|test).[jt]s?(x)',
-            ],
-          },
-        ],
-      },
-    },
-  ],
 };
