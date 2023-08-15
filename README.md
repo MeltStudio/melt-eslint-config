@@ -68,11 +68,10 @@ yarn add --dev @meltstudio/eslint-config \
     eslint-config-prettier \
     eslint-plugin-prettier \
     eslint-plugin-import \
-    eslint-plugin-jest \
     eslint-plugin-simple-import-sort
 ```
 
-1. Add it in your eslint config:
+2. Add it in your eslint config:
 
 ```json
 {
@@ -95,7 +94,6 @@ Node-TypeScript configuration, it includes the following rule sets:
 - `plugin:import/typescript`
 - `plugin:import/recommended`
 - `plugin:prettier/recommended`
-- `plugin:jest/recommended` (only for test files)
 
 and the base TypeScript rules.
 
@@ -110,14 +108,13 @@ yarn add --dev @meltstudio/eslint-config \
     eslint-config-prettier \
     eslint-plugin-prettier \
     eslint-plugin-import \
-    eslint-plugin-jest \
     eslint-plugin-simple-import-sort \
     @typescript-eslint/eslint-plugin \
     @typescript-eslint/parser \
     eslint-import-resolver-typescript
 ```
 
-1. Add it in your eslint config:
+2. Add it in your eslint config:
 
 ```json
 {
@@ -141,7 +138,6 @@ React-TypeScript configuration, it includes the following rule sets:
 - `plugin:import/recommended`
 - `plugin:prettier/recommended`
 - `plugin:testing-library/react` (only for test files)
-- `plugin:jest/recommended` (only for test files)
 
 all the base TypeScript rules, and the following rules:
 
@@ -175,8 +171,6 @@ yarn add --dev @meltstudio/eslint-config \
     eslint-config-prettier \
     eslint-plugin-prettier \
     eslint-plugin-import \
-    eslint-plugin-jest \
-    eslint-plugin-jest-dom \
     eslint-plugin-simple-import-sort \
     @typescript-eslint/eslint-plugin \
     @typescript-eslint/parser \
@@ -187,7 +181,7 @@ yarn add --dev @meltstudio/eslint-config \
     eslint-plugin-testing-library
 ```
 
-1. Add it in your eslint config:
+2. Add it in your eslint config:
 
 ```json
 {
@@ -227,8 +221,6 @@ yarn add --dev @meltstudio/eslint-config \
     eslint-config-prettier \
     eslint-plugin-prettier \
     eslint-plugin-import \
-    eslint-plugin-jest \
-    eslint-plugin-jest-dom \
     eslint-plugin-simple-import-sort \
     @typescript-eslint/eslint-plugin \
     @typescript-eslint/parser \
@@ -240,12 +232,68 @@ yarn add --dev @meltstudio/eslint-config \
     eslint-config-next
 ```
 
-1. Add it in your eslint config:
+2. Add it in your eslint config:
 
 ```json
 {
   ...
   "extends": ["@meltstudio/eslint-config/nextjs-ts"],
+  ...
+}
+```
+
+### jest-overrides
+
+Base config that provides overrides for jest. It provides the following rule
+set:
+
+- `plugin:jest/recommended` (only for test files)
+
+To use it:
+
+1. Install it:
+
+```bash
+yarn add --dev @meltstudio/eslint-config \
+    eslint-plugin-jest \
+    jest/recommended
+```
+
+2. Add it in your eslint config:
+
+```json
+{
+  ...
+  "extends": ["@meltstudio/eslint-config/jest-overrides"],
+  ...
+}
+```
+
+### jest-react-overrides
+
+Base config that provides overrides for jest when using react. It provides the
+following rule set:
+
+- `plugin:jest/recommended` (only for test files)
+
+To use it:
+
+1. Install it:
+
+```bash
+yarn add --dev @meltstudio/eslint-config \
+    eslint-plugin-jest \
+    eslint-plugin-jest-dom \
+    testing-library/react \
+    jest/recommended
+```
+
+2. Add it in your eslint config:
+
+```json
+{
+  ...
+  "extends": ["@meltstudio/eslint-config/jest-react-overrides"],
   ...
 }
 ```
