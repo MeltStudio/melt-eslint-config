@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/MeltStudio/melt-eslint-config/compare/v2.1.0...v2.1.1) (2023-09-23)
+
+
+### Bug Fixes
+
+* include jest configs in package ([21b73e5](https://github.com/MeltStudio/melt-eslint-config/commit/21b73e500dcf3bc7ae4e1cb3b86768b8459313ee))
+
 # [2.1.0](https://github.com/MeltStudio/melt-eslint-config/compare/v2.0.0...v2.1.0) (2023-09-23)
 
 
