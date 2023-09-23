@@ -3,6 +3,7 @@ module.exports = {
   plugins: ['import', 'simple-import-sort', 'prettier'],
   rules: {
     // imports
+    curly: 'error',
     'no-restricted-imports': [
       'error',
       {
