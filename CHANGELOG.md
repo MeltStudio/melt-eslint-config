@@ -1,3 +1,11 @@
+# [2.1.0](https://github.com/MeltStudio/melt-eslint-config/compare/v2.0.0...v2.1.0) (2023-09-23)
+
+
+### Features
+
+* enable curly to enforce style ([fa86bb0](https://github.com/MeltStudio/melt-eslint-config/commit/fa86bb08bbb9140bb74d40bee4d858b0ce8b3c74)), closes [#7](https://github.com/MeltStudio/melt-eslint-config/issues/7)
+* enable more ts and general rules ([c6f324e](https://github.com/MeltStudio/melt-eslint-config/commit/c6f324ecf46edef70f8c11177d7009584fdf37e3))
+
 # [2.0.0](https://github.com/MeltStudio/melt-eslint-config/compare/v1.2.0...v2.0.0) (2023-08-15)
 
 
