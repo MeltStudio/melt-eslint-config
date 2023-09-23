@@ -17,7 +17,9 @@
     "nextjs-ts.js",
     "node-js.js",
     "node-ts.js",
-    "react-ts.js"
+    "react-ts.js",
+    "jest-overrides.js",
+    "jest-react-overrides.js"
   ],
   "scripts": {
     "format": "prettier --write ."
