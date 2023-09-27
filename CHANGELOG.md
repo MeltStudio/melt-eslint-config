@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/MeltStudio/melt-eslint-config/compare/v2.1.1...v2.1.2) (2023-09-27)
+
+
+### Bug Fixes
+
+* add overrides for import/no-default-export ([d66eb9d](https://github.com/MeltStudio/melt-eslint-config/commit/d66eb9d4af0ae8ff4142e687035d99611bf963c8))
+
 ## [2.1.1](https://github.com/MeltStudio/melt-eslint-config/compare/v2.1.0...v2.1.1) (2023-09-23)
 
 
