@@ -36,6 +36,17 @@ module.exports = {
         ],
       },
     },
+    {
+      files: [
+        'jest.config.ts',
+        'tsup.config.ts',
+        'tailwind.config.ts',
+        'drizzle.config.ts',
+      ],
+      rules: {
+        'import/no-default-export': 'off',
+      },
+    },
   ],
   ignorePatterns: [
     '.eslintrc.js',
