@@ -23,6 +23,7 @@ module.exports = {
   rules: {
     // this rule conflicts with typescript
     'no-use-before-define': 'off',
+    'import/consistent-type-specifier-style': ['error', 'prefer-top-level'],
 
     // typescript
     '@typescript-eslint/consistent-type-imports': 'error',
