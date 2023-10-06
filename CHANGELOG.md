@@ -1,3 +1,10 @@
+## [2.1.3](https://github.com/MeltStudio/melt-eslint-config/compare/v2.1.2...v2.1.3) (2023-10-06)
+
+
+### Bug Fixes
+
+* setup conflicting rule from import plugin for type imports ([21c1a3a](https://github.com/MeltStudio/melt-eslint-config/commit/21c1a3a70944041a01826f76130231f8f28e0a56))
+
 ## [2.1.2](https://github.com/MeltStudio/melt-eslint-config/compare/v2.1.1...v2.1.2) (2023-09-27)
 
 
