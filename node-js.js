@@ -1,6 +1,20 @@
-module.exports = {
-  env: {
-    node: true,
+const { FlatCompat } = require('@eslint/eslintrc');
+const js = require('@eslint/js');
+const globals = require('globals');
+
+const compat = new FlatCompat({
+  baseDirectory: __dirname,
+  recommendedConfig: js.configs.recommended,
+});
+
+module.exports = [
+  {
+    languageOptions: {
+      globals: {
+        ...globals.node,
+      },
+    },
   },
-  extends: ['eslint:recommended', 'airbnb-base', require.resolve('./base')],
-};
+  ...compat.extends('eslint:recommended', 'airbnb-base'),
+  ...require('./base'),
+];

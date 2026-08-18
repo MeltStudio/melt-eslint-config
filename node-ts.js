@@ -1,11 +1,30 @@
-module.exports = {
-  env: {
-    node: true,
+const { FlatCompat } = require('@eslint/eslintrc');
+const js = require('@eslint/js');
+const globals = require('globals');
+
+const compat = new FlatCompat({
+  baseDirectory: __dirname,
+  recommendedConfig: js.configs.recommended,
+});
+
+const TS_FILES = ['**/*.ts', '**/*.mts', '**/*.cts', '**/*.tsx'];
+const scopeToTsFiles = (configs) =>
+  configs.map((config) =>
+    config.files || config.ignores ? config : { ...config, files: TS_FILES }
+  );
+
+module.exports = scopeToTsFiles([
+  {
+    languageOptions: {
+      globals: {
+        ...globals.node,
+      },
+    },
   },
-  extends: [
+  ...compat.extends(
     'eslint:recommended',
     'airbnb-base',
-    'airbnb-typescript/base',
-    require.resolve('./base-ts'),
-  ],
-};
+    'airbnb-typescript/base'
+  ),
+  ...require('./base-ts'),
+]);
