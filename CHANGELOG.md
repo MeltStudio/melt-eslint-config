@@ -1,3 +1,27 @@
+# [3.0.0](https://github.com/MeltStudio/melt-eslint-config/compare/v2.1.3...v3.0.0) (2026-08-24)
+
+
+### Bug Fixes
+
+* bump CI workflows from Node 16 to Node 22 ([b2017c3](https://github.com/MeltStudio/melt-eslint-config/commit/b2017c3a77bbea760c5df716562641dc1f1bf5f8))
+
+
+### Features
+
+* rewrite presets as ESLint flat config, bump peers to current majors ([da4da19](https://github.com/MeltStudio/melt-eslint-config/commit/da4da191b6ea4e63ef31cff6584b5ed4133da0fa))
+
+
+### BREAKING CHANGES
+
+* requires ESLint 9+ (peer bumped to ^10.8.1) and flat
+config (eslint.config.js) — .eslintrc is no longer supported. Consumers
+extending "@meltstudio/eslint-config/<preset>" must switch to spreading
+require("@meltstudio/eslint-config/<preset>") into their eslint.config.js.
+nextjs-ts's peer dependency changes from eslint-config-next to
+@next/eslint-plugin-next. See README.md for the complete migration guide.
+
+Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>
+
 ## [2.1.3](https://github.com/MeltStudio/melt-eslint-config/compare/v2.1.2...v2.1.3) (2023-10-06)
 
 
